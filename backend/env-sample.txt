@@ -1,0 +1,19 @@
+SECRET_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ACCESS_TOKEN_EXPIRES_IN=1
+REFRESH_TOKEN_EXPIRES_IN=20
+JWT_ALGORITHM=HS256
+
+CLIENT_ORIGIN=*
+
+# DB
+DATABASE_URL=postgresql://dbusername:dbpassword@localhost:5432/dbname
+
+# OpenAI
+OPENAI_API_KEY=your-openai-api-key
+
+# AWS
+AWS_ACCESS_KEY_ID=your-aws-access-key
+AWS_SECRET_ACCESS_KEY=your-aws-secret-key
+S3_BUCKET_NAME=your-s3-bucket-name
+S3_REGION=your-s3-bucket-region-name
