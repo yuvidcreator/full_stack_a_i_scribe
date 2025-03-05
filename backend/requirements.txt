@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+sqlalchemy
+psycopg2-binary
+pydantic
+boto3
+openai
+google-cloud-speech
